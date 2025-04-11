@@ -7,7 +7,11 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "GIT_USER=Teamil9 npm run build && git add . && git commit -m 'Deploy' && git push origin main",
+<<<<<<< HEAD
+    "deploy": "gh-pages -d build",
+=======
+    "deploy": "gh-pages -d build",
+>>>>>>> 2d64b97... Recommit
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
@@ -27,6 +31,7 @@
     "@docusaurus/module-type-aliases": "3.7.0",
     "@docusaurus/tsconfig": "3.7.0",
     "@docusaurus/types": "3.7.0",
+    "gh-pages": "^6.3.0",
     "typescript": "~5.6.2"
   },
   "browserslist": {

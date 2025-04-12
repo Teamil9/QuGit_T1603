@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkstudy_notes=self.webpackChunkstudy_notes||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/QuGit_T1603/docs/blog","blogTitle":"Blog","authorsListPath":"/QuGit_T1603/docs/blog/authors"}')}}]);

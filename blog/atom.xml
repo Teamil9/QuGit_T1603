@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Teamil9.github.io/QuGit_T1603/blog</id>
-    <title>An Observer’s cite Blog</title>
+    <title>HOME PAGE OF HIROMASA TAJIMA Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Teamil9.github.io/QuGit_T1603/blog"/>
-    <subtitle>An Observer’s cite Blog</subtitle>
+    <subtitle>HOME PAGE OF HIROMASA TAJIMA Blog</subtitle>
     <icon>https://Teamil9.github.io/QuGit_T1603/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>

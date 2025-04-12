@@ -7,11 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-<<<<<<< HEAD
-    "deploy": "gh-pages -d build",
-=======
-    "deploy": "gh-pages -d build",
->>>>>>> 2d64b97... Recommit
+    "deploy": "GH_TOKEN=$GH_TOKEN && gh-pages -d build",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",

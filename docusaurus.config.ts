@@ -37,7 +37,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: require.resolve('./sidebars.ts'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -81,7 +81,8 @@ const config: Config = {
           position: 'left',
           label: 'About Me',
         },
-        { to:'/doc_phys',
+        { type: 'docSidebar',
+          sidebarId: 'physicsSidebar',
           label: 'Physics',
           position: 'left',
         },

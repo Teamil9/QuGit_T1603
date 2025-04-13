@@ -81,8 +81,8 @@ const config: Config = {
           position: 'left',
           label: 'About Me',
         },
-        { type: 'docSidebar',
-          sidebarId: 'physicsSidebar',
+        {
+          to: '/docphys/index',  // docs/doc_phys/index.md に対応
           label: 'Physics',
           position: 'left',
         },

@@ -6,8 +6,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 
 const config: Config = {
-  title: 'An Observer’s cite',
-  tagline: 'Dinosaurs are cool',
+  title: 'HOME PAGE OF HIROMASA TAJIMA',
+  tagline: 'HOGE HOGE HO-GE',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -18,8 +18,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Teamil9', // Usually your GitHub org/user name.
+  projectName: 'QuGit_T1603', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -79,7 +79,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'About Me',
+        },
+        { to:'/doc_phys',
+          label: 'Physics',
+          position: 'left',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {

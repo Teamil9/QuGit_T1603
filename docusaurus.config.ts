@@ -81,11 +81,7 @@ const config: Config = {
           position: 'left',
           label: 'About Me',
         },
-        {
-          to: '/docphys/index',  // docs/doc_phys/index.md に対応
-          label: 'Physics',
-          position: 'left',
-        },
+        {to: '/docphys',  label: 'Physics', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
